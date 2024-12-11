@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form">
+        <form action="/submitform">
+            <h1>
+                PERSONAL INFORMATION
+            </h1>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            <fieldset>
+                <legend>Gender</legend>
+                
+                <label for="male">
+                    <input type="radio" name="gender" value="male">
+                    Male</label>
+                
+                <label for="female">
+                    <input type="radio" name="gender" value="female">
+                    Female
+                    
+
+                </label>
+
+                
+            </fieldset>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
